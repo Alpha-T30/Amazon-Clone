@@ -1,0 +1,17 @@
+.caropro{
+ 
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px; 
+    // margin: 0 10px;
+    cursor: pointer;
+    padding: 5px;
+    justify-content: space-evenly;
+    img{
+        object-fit: cover;
+       width: 100%;
+
+    }
+}

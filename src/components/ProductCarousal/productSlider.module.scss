@@ -1,0 +1,93 @@
+.main {
+  width: 100%;
+  position: relative;
+
+  span {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    a {
+      text-decoration: none;
+      font-size: 14px;
+      color: rgb(29, 162, 185);
+      &:hover {
+        color: crimson;
+      }
+    }
+  }
+  .slider {
+    background-color: #fff;
+
+    overflow-x: scroll;
+    display: flex;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: background-color 2s ease-out;
+    cursor: pointer ;
+ 
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.253);  
+     
+    }
+
+    &::-webkit-scrollbar {
+      background-color: #fff;
+
+      height: 8px;
+    }
+    &::-webkit-scrollbar-track {
+
+      background-color: #fff;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+    background-color: inherit;
+     
+    }
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .arrow {
+      width: 45px;
+      height: 90px;
+      background-color: rgba(102, 102, 102, 0.712);
+      position: absolute;
+
+      transition: opacity 3s ease-out;
+
+      border-radius: 5px;
+      color: black;
+      cursor: pointer;
+
+      position: absolute;
+      top: 40%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      opacity: 0;
+
+      .span {
+        color: crimson;
+      }
+      &:focus {
+        border: 2px solid rgb(35, 170, 141);
+      }
+
+      &.next {
+        right: 0;
+      }
+      &.previous {
+        left: 0;
+      }
+    }
+    &:hover {
+      .arrow {
+        opacity: 1;
+      }
+    }
+  }
+}

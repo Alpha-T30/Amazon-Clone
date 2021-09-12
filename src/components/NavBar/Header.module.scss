@@ -1,0 +1,266 @@
+.header{
+    background-color:#131921;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    /* position: sticky; */
+    top: 0;
+     align-items: center;
+
+    
+
+}
+.searchicon{
+    height: 65%;
+    width: 50px;
+    background-color: #f6bc70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    height: 100%;
+
+}
+.searchicon:hover{
+    background-color:#F3A847 ;
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    height: 65%;
+    border-radius: 3px 0 0 3px;
+    background-color: #ecececfa;
+    color: rgb(68, 68, 68);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+}
+.dropdown:hover{
+    background-color: #dadadae5;
+}
+.all{
+    font-weight: 300;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.deliveredto{
+    
+     display: flex;
+     flex-direction: row;
+    margin:  2px 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 7px 10px;
+    border-radius: 3px;
+}
+.deliveredto:hover{
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt rgb(255, 255, 255);
+    outline: none;
+    transition: .1s;
+    cursor: pointer;
+}
+.deliver{
+    display: flex;
+    flex-direction: column;
+}
+.to{
+    font-size: 12px;
+    font-weight: 400;
+    color: #c2c2c2;
+    
+
+}
+.bd{
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 6px;
+}
+.language{
+    color: rgb(155, 155, 155);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 7px 10px;
+    border-radius: 3px;
+}
+.language:hover{
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt rgb(255, 255, 255);
+    outline: none;
+    transition: .1s;
+    cursor: pointer;
+}
+.flag{
+    font-size: 22px;
+    margin-left: 10px;
+}
+.flagimg{
+    width: 22px;
+    height: 15px;
+    margin-left: 10px;
+}
+ .logo{
+     width: 100px;
+     height: 40px;
+        margin-left: 10px;
+        margin-top: 5px;
+        align-self: center;
+         
+       
+      border-radius: 3px;
+          
+       
+        
+    
+ }
+
+ .logo:hover{
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt rgb(255, 255, 255);
+    outline: none;
+    transition: .1s;
+    cursor: pointer;
+     
+     
+ }
+ 
+hr{
+    color: white;
+}
+ .searchbar{
+     
+        
+       align-items: center;
+       justify-items: center;
+       display: flex;
+       flex-direction: row;
+        
+        width: 60%;
+        height: 40px;
+      
+        &.searchfocus{
+            border-radius: 3px;
+    box-shadow: 0 0 0 3px orange;
+    outline: none;
+    transition: .1s;
+          }
+     
+       
+        
+        
+ }
+ .inp{
+     width:  100%;
+     height:  100%; 
+      
+    border: none;
+    font-size: 17px;
+    font-weight: normal;
+    padding-left: 10px;
+   
+   
+      
+ }
+ .inp:focus{
+     outline: none;
+ }
+ .cartdiv{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     cursor: pointer;
+     border-radius: 3px;
+     position: relative;
+     margin: 7px 15px;
+ }
+ .cartcounter{
+     position: absolute;
+     top: 0px;
+     left: 20px;
+     color: orange;
+     font-weight: bold;
+ }
+ .cartdiv:hover{
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt rgb(255, 255, 255);
+    outline: none;
+    transition: .1s;
+    cursor: pointer;
+    
+ }
+  .cart{
+      color: white;
+      width: 40px;
+      height: 40px; 
+      margin-left: 7px;
+      filter: invert(100%);
+      
+  }
+  .cartname{
+      font-weight: bold;
+      font-size: 15px;
+      color: white;
+      margin-top: 10px;
+      margin-left: 4px;
+      margin-right: 8px;
+  }
+  
+  .signin{
+      display: flex;
+      
+      justify-content: center;
+      cursor: pointer;
+      color: white;
+      flex-direction: column;
+      margin: 7px 10px;
+      border-radius: 3px;
+  }
+ .signin:hover{
+    border: none;
+    border-radius: 2pt;
+    box-shadow: 0 0 0 1pt rgb(255, 255, 255);
+    outline: none;
+    transition: .1s;
+    cursor: pointer;
+     
+ }
+
+ .sign{
+    font-size: 12px;
+    font-weight: 400;
+    color: #ececec;
+    margin-left: 10px;
+    
+
+}
+.list{
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 6px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+  .listdiv{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+  }
+
+
+ 

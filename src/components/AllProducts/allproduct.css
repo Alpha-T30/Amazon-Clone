@@ -1,0 +1,18 @@
+.test {
+  position: absolute;
+  width: 100%;
+
+  top: 60%;
+
+  padding: 30px;
+  display: flex;
+
+ 
+  background-color: #eaeded44;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+ 
+  flex-wrap: wrap;
+}
